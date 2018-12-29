@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4FC26AB21D7B61300A19C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC26AA21D7B61300A19C69 /* AppDelegate.swift */; };
+		E4FC26AD21D7B61300A19C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC26AC21D7B61300A19C69 /* ViewController.swift */; };
+		E4FC26B021D7B61300A19C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FC26AE21D7B61300A19C69 /* Main.storyboard */; };
+		E4FC26B321D7B61300A19C69 /* MisterioHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4FC26B121D7B61300A19C69 /* MisterioHelper.xcdatamodeld */; };
+		E4FC26B521D7B61700A19C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FC26B421D7B61700A19C69 /* Assets.xcassets */; };
+		E4FC26B821D7B61700A19C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FC26B621D7B61700A19C69 /* LaunchScreen.storyboard */; };
+		E4FC26C321D7B61700A19C69 /* MisterioHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC26C221D7B61700A19C69 /* MisterioHelperTests.swift */; };
+		E4FC26CE21D7B61800A19C69 /* MisterioHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC26CD21D7B61800A19C69 /* MisterioHelperUITests.swift */; };
+		E4FC26DC21D7BA9200A19C69 /* AccousedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC26DB21D7BA9200A19C69 /* AccousedTableViewCell.swift */; };
+		E4FC26E021D7C1C000A19C69 /* AccusedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FC26DF21D7C1C000A19C69 /* AccusedModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4FC26BF21D7B61700A19C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4FC269F21D7B61300A19C69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4FC26A621D7B61300A19C69;
+			remoteInfo = MisterioHelper;
+		};
+		E4FC26CA21D7B61800A19C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4FC269F21D7B61300A19C69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4FC26A621D7B61300A19C69;
+			remoteInfo = MisterioHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4FC26A721D7B61300A19C69 /* MisterioHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisterioHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FC26AA21D7B61300A19C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4FC26AC21D7B61300A19C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4FC26AF21D7B61300A19C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4FC26B221D7B61300A19C69 /* MisterioHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MisterioHelper.xcdatamodel; sourceTree = "<group>"; };
+		E4FC26B421D7B61700A19C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4FC26B721D7B61700A19C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4FC26B921D7B61700A19C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FC26BE21D7B61700A19C69 /* MisterioHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisterioHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FC26C221D7B61700A19C69 /* MisterioHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisterioHelperTests.swift; sourceTree = "<group>"; };
+		E4FC26C421D7B61700A19C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FC26C921D7B61800A19C69 /* MisterioHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisterioHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FC26CD21D7B61800A19C69 /* MisterioHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisterioHelperUITests.swift; sourceTree = "<group>"; };
+		E4FC26CF21D7B61800A19C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4FC26DB21D7BA9200A19C69 /* AccousedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccousedTableViewCell.swift; sourceTree = "<group>"; };
+		E4FC26DF21D7C1C000A19C69 /* AccusedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccusedModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4FC26A421D7B61300A19C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FC26BB21D7B61700A19C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FC26C621D7B61800A19C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4FC269E21D7B61300A19C69 = {
+			isa = PBXGroup;
+			children = (
+				E4FC26A921D7B61300A19C69 /* MisterioHelper */,
+				E4FC26C121D7B61700A19C69 /* MisterioHelperTests */,
+				E4FC26CC21D7B61800A19C69 /* MisterioHelperUITests */,
+				E4FC26A821D7B61300A19C69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4FC26A821D7B61300A19C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC26A721D7B61300A19C69 /* MisterioHelper.app */,
+				E4FC26BE21D7B61700A19C69 /* MisterioHelperTests.xctest */,
+				E4FC26C921D7B61800A19C69 /* MisterioHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4FC26A921D7B61300A19C69 /* MisterioHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC26DE21D7C17600A19C69 /* Model */,
+				E4FC26DD21D7C15C00A19C69 /* View */,
+				E4FC26AA21D7B61300A19C69 /* AppDelegate.swift */,
+				E4FC26B421D7B61700A19C69 /* Assets.xcassets */,
+				E4FC26B621D7B61700A19C69 /* LaunchScreen.storyboard */,
+				E4FC26B921D7B61700A19C69 /* Info.plist */,
+				E4FC26B121D7B61300A19C69 /* MisterioHelper.xcdatamodeld */,
+			);
+			path = MisterioHelper;
+			sourceTree = "<group>";
+		};
+		E4FC26C121D7B61700A19C69 /* MisterioHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC26C221D7B61700A19C69 /* MisterioHelperTests.swift */,
+				E4FC26C421D7B61700A19C69 /* Info.plist */,
+			);
+			path = MisterioHelperTests;
+			sourceTree = "<group>";
+		};
+		E4FC26CC21D7B61800A19C69 /* MisterioHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC26CD21D7B61800A19C69 /* MisterioHelperUITests.swift */,
+				E4FC26CF21D7B61800A19C69 /* Info.plist */,
+			);
+			path = MisterioHelperUITests;
+			sourceTree = "<group>";
+		};
+		E4FC26DD21D7C15C00A19C69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC26AC21D7B61300A19C69 /* ViewController.swift */,
+				E4FC26AE21D7B61300A19C69 /* Main.storyboard */,
+				E4FC26DB21D7BA9200A19C69 /* AccousedTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4FC26DE21D7C17600A19C69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC26DF21D7C1C000A19C69 /* AccusedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4FC26A621D7B61300A19C69 /* MisterioHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FC26D221D7B61800A19C69 /* Build configuration list for PBXNativeTarget "MisterioHelper" */;
+			buildPhases = (
+				E4FC26A321D7B61300A19C69 /* Sources */,
+				E4FC26A421D7B61300A19C69 /* Frameworks */,
+				E4FC26A521D7B61300A19C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MisterioHelper;
+			productName = MisterioHelper;
+			productReference = E4FC26A721D7B61300A19C69 /* MisterioHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4FC26BD21D7B61700A19C69 /* MisterioHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FC26D521D7B61800A19C69 /* Build configuration list for PBXNativeTarget "MisterioHelperTests" */;
+			buildPhases = (
+				E4FC26BA21D7B61700A19C69 /* Sources */,
+				E4FC26BB21D7B61700A19C69 /* Frameworks */,
+				E4FC26BC21D7B61700A19C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4FC26C021D7B61700A19C69 /* PBXTargetDependency */,
+			);
+			name = MisterioHelperTests;
+			productName = MisterioHelperTests;
+			productReference = E4FC26BE21D7B61700A19C69 /* MisterioHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4FC26C821D7B61800A19C69 /* MisterioHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FC26D821D7B61800A19C69 /* Build configuration list for PBXNativeTarget "MisterioHelperUITests" */;
+			buildPhases = (
+				E4FC26C521D7B61800A19C69 /* Sources */,
+				E4FC26C621D7B61800A19C69 /* Frameworks */,
+				E4FC26C721D7B61800A19C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4FC26CB21D7B61800A19C69 /* PBXTargetDependency */,
+			);
+			name = MisterioHelperUITests;
+			productName = MisterioHelperUITests;
+			productReference = E4FC26C921D7B61800A19C69 /* MisterioHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4FC269F21D7B61300A19C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Josmer Delgado";
+				TargetAttributes = {
+					E4FC26A621D7B61300A19C69 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E4FC26BD21D7B61700A19C69 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E4FC26A621D7B61300A19C69;
+					};
+					E4FC26C821D7B61800A19C69 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E4FC26A621D7B61300A19C69;
+					};
+				};
+			};
+			buildConfigurationList = E4FC26A221D7B61300A19C69 /* Build configuration list for PBXProject "MisterioHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4FC269E21D7B61300A19C69;
+			productRefGroup = E4FC26A821D7B61300A19C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4FC26A621D7B61300A19C69 /* MisterioHelper */,
+				E4FC26BD21D7B61700A19C69 /* MisterioHelperTests */,
+				E4FC26C821D7B61800A19C69 /* MisterioHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4FC26A521D7B61300A19C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FC26B821D7B61700A19C69 /* LaunchScreen.storyboard in Resources */,
+				E4FC26B521D7B61700A19C69 /* Assets.xcassets in Resources */,
+				E4FC26B021D7B61300A19C69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FC26BC21D7B61700A19C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FC26C721D7B61800A19C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4FC26A321D7B61300A19C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FC26DC21D7BA9200A19C69 /* AccousedTableViewCell.swift in Sources */,
+				E4FC26E021D7C1C000A19C69 /* AccusedModel.swift in Sources */,
+				E4FC26AD21D7B61300A19C69 /* ViewController.swift in Sources */,
+				E4FC26B321D7B61300A19C69 /* MisterioHelper.xcdatamodeld in Sources */,
+				E4FC26AB21D7B61300A19C69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FC26BA21D7B61700A19C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FC26C321D7B61700A19C69 /* MisterioHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FC26C521D7B61800A19C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FC26CE21D7B61800A19C69 /* MisterioHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4FC26C021D7B61700A19C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4FC26A621D7B61300A19C69 /* MisterioHelper */;
+			targetProxy = E4FC26BF21D7B61700A19C69 /* PBXContainerItemProxy */;
+		};
+		E4FC26CB21D7B61800A19C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4FC26A621D7B61300A19C69 /* MisterioHelper */;
+			targetProxy = E4FC26CA21D7B61800A19C69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4FC26AE21D7B61300A19C69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4FC26AF21D7B61300A19C69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4FC26B621D7B61700A19C69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4FC26B721D7B61700A19C69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4FC26D021D7B61800A19C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4FC26D121D7B61800A19C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4FC26D321D7B61800A19C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisterioHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josmer.MisterioHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4FC26D421D7B61800A19C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisterioHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josmer.MisterioHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4FC26D621D7B61800A19C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisterioHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josmer.MisterioHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisterioHelper.app/MisterioHelper";
+			};
+			name = Debug;
+		};
+		E4FC26D721D7B61800A19C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisterioHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josmer.MisterioHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisterioHelper.app/MisterioHelper";
+			};
+			name = Release;
+		};
+		E4FC26D921D7B61800A19C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisterioHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josmer.MisterioHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisterioHelper;
+			};
+			name = Debug;
+		};
+		E4FC26DA21D7B61800A19C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MisterioHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josmer.MisterioHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisterioHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4FC26A221D7B61300A19C69 /* Build configuration list for PBXProject "MisterioHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FC26D021D7B61800A19C69 /* Debug */,
+				E4FC26D121D7B61800A19C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FC26D221D7B61800A19C69 /* Build configuration list for PBXNativeTarget "MisterioHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FC26D321D7B61800A19C69 /* Debug */,
+				E4FC26D421D7B61800A19C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FC26D521D7B61800A19C69 /* Build configuration list for PBXNativeTarget "MisterioHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FC26D621D7B61800A19C69 /* Debug */,
+				E4FC26D721D7B61800A19C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FC26D821D7B61800A19C69 /* Build configuration list for PBXNativeTarget "MisterioHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FC26D921D7B61800A19C69 /* Debug */,
+				E4FC26DA21D7B61800A19C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4FC26B121D7B61300A19C69 /* MisterioHelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4FC26B221D7B61300A19C69 /* MisterioHelper.xcdatamodel */,
+			);
+			currentVersion = E4FC26B221D7B61300A19C69 /* MisterioHelper.xcdatamodel */;
+			path = MisterioHelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4FC269F21D7B61300A19C69 /* Project object */;
+}
